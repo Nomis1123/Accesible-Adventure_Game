@@ -1,0 +1,97 @@
+Phase 2 Marking Scheme
+
+Team Name: group_14
+
+PROJECT DEMO (worth 30%)
+
+One feature per person presented and are innovative, clear, stable, address accessibility concerns (12 marks)
+
+One design choice per team member is clearly explained (10 marks)
+
+Distribution of work across teammates is clear and fair (4 marks)
+4
+All teammates contribute to demo (4 marks)
+
+Features: 12/12
+Designs: 4/10
+Distribution: 4/4
+Contributions 4/4
+
+TOTAL: 24/30
+
+COMMENTS ON DEMO: 
+-Implementation and explantion of Observer pattern had errors
+- UMLS had errors in design
+- Only 2 distinct design patterns presented
+PROCESS MARKS (40%)
+
+User stories identified (IDs correspond to design document) and branches in GitLab repository can be easily related to user stories  (4 marks)
+
+
+Retrospective notes indicate process refined/improved;  GitFlow process is stable by final iteration (4 marks) 
+
+
+User stories initiated early and there is evidence of incremental commits with intuitive commit messages  (8 marks)
+
+
+Merge requests/code reviews exist at each iteration (8 marks)
+
+
+Incremental commits include tests (8 marks)
+
+
+Incremental commits include documentation (JavaDoc)  (8 marks)
+
+User Stories: 3/4
+Retrospectives/Process Improvement: 4/4
+Incremental, Clear Commits: 7/8
+Merge Requests: 8/8
+Tests: 6/8
+Documentation: 8/8
+
+TOTAL: 36/40
+
+Comments: 
+- branches should not have been deleted
+- Somne commits w/o proper format
+
+FINAL REPORT + DESIGN DOCUMENT REVISION (20%)
+
+Goals and Stories selected for each sprint are clear in Final Report (4 marks)
+
+Retrospectives are clear and meaningful in Final Report (2 marks)
+
+Code Reviews (Merge Requests) are accessible in Final Report (2 marks)
+
+Process is summarized well in final report (4 marks)
+
+UML/Design Patterns reflect what was completed (8 marks)
+
+Goals/Stories: 4/4
+Retrospectives: 2/2
+Code Reviews: 2/2
+Process Documentation: 4/4
+UML/Design Patterns: 6/8
+
+
+TOTAL: 18/20
+
+WRITING QUALITY OF FINAL REPORT/DESIGN DOCUMENT (10%)
+
+Structure (4 marks): Organization of final report + design document is logical and clear.
+
+Mechanics (3 marks):  Sentences must be complete, grammatically correct, and well written.
+
+Appropriateness for the Audience (3 marks): Writing must be appropriate for consumption by a technical audience.
+
+Structure: 4/4
+Mechanics: 3/3
+Appropriateness: 3/3
+
+TOTAL: 10/10
+
+NOTE THAT SOME MARK ADJUSTMENTS MAY HAVE BEEN MADE ON AN INDIVIDUAL BASIS, BASED ON THE RELATIVE CONTRIBUTIONS OF INDIVIDUAL MEMBERS OF YOUR TEAM.  THE MARK ABOVE IS FOR YOUR GROUP; FINAL MARKS (PER PERSON) WILL BE POSTED TO MARKUS .... ONCE MARKUS IS BACK ONLINE.
+
+TOTAL MARK FOR PHASE 2: 88/100
+
+

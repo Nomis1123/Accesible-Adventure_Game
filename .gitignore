@@ -1,0 +1,8 @@
+.*/
+out/
+*.xml
+*.iml
+*.log
+*.class
+*.ser
+*.DS_Store

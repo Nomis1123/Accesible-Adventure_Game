@@ -1,0 +1,299 @@
+1
+Control Room
+You are standing in the middle of the control room of a massive spaceship. To your left is hallway A5 which leads to the Medical Room. To your right is Hallway B5 which leads to the Armoury. Behind you is an escape airlock used ONLY FOR EMERGENCIES
+-----
+NORTH    2
+WEST    3
+EAST    4
+SOUTH    100
+
+2
+Captains Desk
+You are standing in front of your desk. You notice that your computer seems to have an emergency notification on its desktop. “It’s probably just a bug, I did send the electricians to fix the security measures around the ship. They must be testing the system”.
+-----
+SOUTH     1
+
+3
+Hallway A5
+To your right holds your living quarters and in front of you holds the medical room. To your left it seems like the door to the storage room is blocked off by debris. You will need something to get rid of the debris to enter that room. It seems that the hallway is a dark red due to the alarm system still going off. You wonder if these electricians are still testing…
+-----
+WEST     9
+NORTH     5
+EAST     7
+SOUTH     1
+
+4
+Hallway B5
+A shattered light bar is on the floor of this very dim room. You can see that the door to the armoury is buried with debris from the roof. You will need something to remove the debris to gain access to the armoury. You can also see that the custodial closet is to the right and the gift shop is to the left. 
+-----
+NORTH     11
+EAST     8
+SOUTH     1
+WEST     6
+
+5
+Medical Room
+To your horror it seems like the medical rooms has been completely trashed with still no sign of human life. There are scratches on the walls of the rooms which could not be produced by a human. It appears the path to Hallway A4 is still open to your right. 
+-----
+EAST     10
+SOUTH     3
+
+6
+Gift Shop
+The gift shop is absolutely trashed. You search for a while through the rubble. Joy runs through you as you find the PhysGun. This incredible device can move any object with ease!
+-----
+SOUTH     4
+
+7
+Living Quarters
+A very clean bedroom. It is odd how your living quarters weren’t touched with all the panic. You find your id on your bed which could be useful later on. 
+-----
+SOUTH     3
+
+8
+Custodial Closet
+You see a few custodial supplies scattered around the closet. Nothing that special here. You notice last second that there is an air vent at the top of the room which needs a screwdriver to open it up. 
+-----
+NORTH     35/SCREWDRIVER
+SOUTH     4
+
+9
+Storage Room
+You are in awe to the amount of destruction that occurred in this room. Scattered parts of machinery and cargo. But to your horror, you can see a glimpse of what was one of your crewmates under all the rubble. 
+-----
+SOUTH     3
+
+10
+Hallway A4
+This hallway leads directly to the Laboratory. You see a strange green haze emitting at the end of the hallway. 
+-----
+NORTH     13
+SOUTH     5
+
+11
+Armoury
+You can clearly see that most of the weapons were taken from the armoury in some sort of panic. There are still a few weapons on the ground and on the walls for display. There is also another room in the back but you can’t seem to remember what is in there….
+-----
+NORTH     12
+SOUTH     4
+
+12
+Cave
+You find yourself in the middle of a situation you were not prepared for. A man and his pet alligator are enjoying a pizza together. You decide to back out slowly without disturbing them. 
+-----
+SOUTH     11
+
+13
+Laboratory
+The room is filled with a mysterious green smoke. It’s getting harder to breath the deaper you travel into the smoke. Looking north you find the entrance to the cafeteria. You can also spot the source to your right. Maybe finding something that can filter out the smoke could be crucial. 
+-----
+NORTH     15
+EAST     14/MASK
+EAST     100
+
+14
+MonsterSpawn
+The room is full of the same green smoke from the Laboratory. In the center of the room you can see the source of this deadly gas. Several alien looking eggs have hatched in the middle of the room. Finally, you have some sense of what’s happening. You look ahead and can see a gate with a green slot in the middle. 
+-----
+NORTH     36/CORE
+SOUTH     13
+
+15
+Cafeteria 
+You stand at the entrance to the ship cafeteria. It’s a complete mess with plates and food everywhere. A large pile of food is moving and twitching in the center of the cafeteria. You can move North to check it out, east to go to hallway B4. 
+-----
+NORTH     16
+NORTH     20/HEART
+EAST     17
+SOUTH     13
+
+16
+Caf_Encounter
+A 7ft tall monster that appears to be made out of food left on the cafeteria ground has risen right before your eyes. It has long arms and has large, stumpy llegs, and no real eyes. It lets out a huge roar as you approach it for a fight. 
+-----
+WIN     19
+LOSE     100
+
+17
+Hallway B4
+A long dark hallway is only lit up by the red alert lights. This hallway leads to the ship cafeteria. You hear a distant rumble and plate crash coming from the cafeteria, thinking it could be a crew member, you have a feeling you should push through. North leads to the cafeteria, south leads the gym. 
+-----
+NORTH    15
+SOUTH    18
+
+18
+Gym 
+You enter your ship’s gym. Honestly, it looks very well kept for some reason, I guess no one ever goes here. The big windows on walls around the gym are a beautiful view while you work out. Nothing too special in this room. West leads to hallway B4 and south leads to the armoury.
+-----
+WEST    18
+SOUTH    11
+
+19
+Enc_Win
+The monster lets out a horrific roar as it slowly dissolves back into a pile of food and muck. You see the monsters heart glowing, you feel like you should take it to make sure the monster stays down. You wonder if that was a dream and if it wasn’t, how many more of those things are there? You can see that you can head North to the crewmates lockers are, East heads to the engine bay, South leads back to the caf, and West leads to the Waste Management area.
+-----
+NORTH    20
+EAST    21
+SOUTH    15
+WEST    22
+
+20
+Lockers
+As you enter the lockers a foul smell emanates from the left side of the room. You can see a trail of what looks like green goo leading to the left side of the room. You hear a voice that sounds oddly familiar coming from the room to the left. North leads to the showers, East leads to the engine bay, South goes the caf, and West leads to the server room. 
+-----
+NORTH    23
+EAST    21
+SOUTH    15
+WEST    24
+WEST    27/CORE
+
+21
+Engine Bay
+The engine bay seems like everything is in order. A great juxtaposition to the scenes you’ve be encountering. A loud clunking noise is coming from the end of the room, being an engine room this is expected but you can’t help but want to check it out. South leads to the locker rooms, West leads to the cafeteria, and North leads to that clunking noise.
+-----
+NORTH    25
+NORTH    28/ARTIFACT
+SOUTH    20
+WEST    15
+
+22
+Waste Management
+As you enter the waste room you notice that everything is spewed out on the floor. Trash is covering every inch of the floor. Whatever invaded your ship must have thrown your crew in a panic.
+-----
+SOUTH    15
+
+23
+Showers
+All the showers are still on. The floor is covered in water Something appears to have broken through the wall straight ahead. You remember the evacuation pods are that direction. North leads to the evacuation pods and south leads back to the locker room
+-----
+NORTH    26
+SOUTH    20
+
+24
+Mimic_enc
+As you enter the server room, a slime monster with a skeleton inside appears to be looking directly at you. Without breaking eye contact, you ready for a fight. The monster copies you exact movements. You realise that you’re fighting a Mimic
+-----
+WIN    27
+LOSE    100
+
+25
+Drone_enc
+A combat drone with and orange substance leaking from it springs to life and immediately locks onto you. You have an overwhelming feeling that this drone isn’t willing to help you. As you prepare for a fight it grows and extends its weapons. 
+-----
+WIN    28
+LOSE    100
+
+26
+Void Entrance
+You enter a purple void of a room. An alien center console is in the center of the room with 1 empty slot. It appears that you must slot in an alien item you have found to proceed. 
+-----
+NORTH    29/KEY
+NORTH    40
+SOUTH    23
+
+27
+Mimic_win
+As the mimic falls to the ground, its core exposes itself. You may find it useful to grab it just to make sure it stays down for good. As you scan the surrounding area, you find nothing of value. The only direction you can go is South to the lockers. 
+-----
+SOUTH    20
+
+28
+Drone_win
+The drone slowly collapses to the ground. It’s orange mechanical artifact exposes itself, taking it may be beneficial to making this thing stay down. As you scan your surroundings, you find a vent that leads to the custodial closet. It’s screwed shut, a screw driver would be useful here. 
+-----
+NORTH    35/SCREWDRIVER
+SOUTH    21
+
+29
+Void
+As you place the alien core into the console, a purple void consumes you whole. You find yourself in a dark purple room with a strange figure in the middle of the room watching you. You must get past this thing to reach the escape pods. Are you prepared for this?
+-----
+NORTH    50
+SOUTH    26
+
+35
+Vent
+This air duct connects the custodial closet to the engine bay. North leads to the engine bay while south leads to the custodial closet
+-----
+NORTH    25
+NORTH    28/ARTIFACT
+SOUTH    8
+
+36
+First Gate
+You find yourself in another alien looking room, but this time it’s yellow instead of green. Another gate is ahead of you with an yellow slot this time. You have a strong feeling not to drop these artifacts
+-----
+NORTH    37/HEART
+SOUTH    14
+
+37
+Second Gate
+Another alien looking room but this time it’s orange. The gate ahead of you has a mechanical orange slot in the center of it. Again, you have a strong feeling that you shouldn’t drop these artifacts.
+-----
+NORTH    38/ARTIFACT
+SOUTH    36
+
+38
+Third Gate
+As you enter this room, a dark purple void fills the room. The gate ahead of you slowly opens to a dark purple void. You feel a strong sense of dread approaching the room but you feel like it’s necessary to continue. 
+-----
+NORTH    39
+SOUTH    37
+
+39
+Alien Safe
+An alien safe rises from the ground to presents a purple key. This one is much different from the others. It has a dark purple hue with a black void in the middle. This must open something.
+-----
+SOUTH    38
+
+40
+Nokey_final
+The terminal forces you away, sending you flying across the room. You must not have the key to pass. 
+-----
+FORCED    26
+
+50
+Final_enc
+As you approach the void thing, you body grows heavy. You feel like you must’ve gained 100 pounds. Your head starts to pound. If you want to escape you need to get through this thing. You ready yourself to fight for your life. 
+-----
+WIN    51
+LOSE    100
+
+51
+Final_win
+As the void fiend screams in defeat, the room comes back to normal as you begin to see the escape pods. Many of them damaged but 1 remains. You hop in it as the ship behind you starts to fall apart. 
+-----
+FORCED    52
+
+52
+Final Choice
+As you get sent into space you finally get into human contact and explain what happened to the board of space exploration. On your trip down you look at try to find earth but to no avail. You reach into your pocket to find the purple orb again. Trying to figure out what to do you come to 2 options. Reaching to your left will smash the orb and reaching to your right will send it out into space. Make your choice.
+-----
+EAST    90/KEY
+EAST    85
+WEST    85
+WEST    80/KEY
+
+80
+Bad Ending
+As you smash the artifact, the many pieces latch onto you and begin to turn you into something supernatural. You wake up on earth still in the pod, as you step out you find that people are screaming at the sight of you. Looking down, you find that your body has turned into the void fiend on the ship. You let out a terrifying shriek. You’ve fully turned
+-----
+FORCED    0
+
+85
+Confused Ending
+As you reach for the artifact, you remember that you forgot it back on the ship. Oddly enough, not bringing the artifact was the best decision. Crashing back down to earth you can see your ship explode in deep reaches of space. Hopefully whatever you encountered up there got erased with the ship.
+-----
+FORCED    0
+
+90
+Good Ending
+You open the trash chute in the escape pod and send the artifact into space. As the artifact gets sucked into space, you something un-attach itself from you. You start falling in and out of consciousness. As you wake up, you find yourself on earth somehow with a crowd surrounding you. As you check your body, nothing seems out of the ordinary. You successfully escaped the ship!
+-----
+FORCED    0
+
+100
+GameOver
+Your journey comes to an end
+-----
+FORCED    0

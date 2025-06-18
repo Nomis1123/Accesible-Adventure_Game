@@ -1,0 +1,23 @@
+File: Serenity (Explore).mp3
+Title: Serenity (Explore)
+Author: please dont touch me
+Source: https://pleasedontouchme.bandcamp.com/album/multiverse
+License: https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+File: Serenity (Battle).mp3
+Title: Serenity (Battle)
+Author: please dont touch me
+Source: https://pleasedontouchme.bandcamp.com/album/multiverse
+License: https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+File: bandage_use.mp3
+Title: Heart collect/Healing (Retro)
+Author: ReincarnatedEchoes
+Source: https://freesound.org/s/644306/
+License: https://creativecommons.org/licenses/by/4.0/
+
+File: term_error.mp3
+Title: Menu Selection Click
+Author: NenadSimic
+Source: https://opengameart.org/content/menu-selection-click
+License: https://creativecommons.org/licenses/by/3.0/

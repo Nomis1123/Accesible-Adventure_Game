@@ -1,0 +1,110 @@
+import com.sun.speech.freetts.Voice;
+import com.sun.speech.freetts.VoiceManager;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class MenuFX extends Application {
+    private AltManager altManager;
+    private TextToSpeechManager ttsManager;
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) {
+        // Initialize AltManager
+        altManager = new AltManager();
+
+        // Initialize TextToSpeechManager
+        ttsManager = new TextToSpeechManager(new FreeTTSProvider());
+
+        // Create buttons with text and associated keybinds
+        HoverButtonFX button1 = createHoverButton("Button 1", "1");
+        HoverButtonFX button2 = createHoverButton("Button 2", "2");
+        HoverButtonFX button3 = createHoverButton("Button 3", "3");
+
+        // Set up the layout
+        VBox root = new VBox(button1, button2, button3);
+        Scene scene = new Scene(root, 300, 300);
+
+        // Set up the keybind manager
+        KeybindManagerFX keybindManager = new KeybindManagerFX(scene);
+        keybindManager.addKeybind("1", () -> switchButton(button1));
+        keybindManager.addKeybind("2", () -> switchButton(button2));
+        keybindManager.addKeybind("3", () -> switchButton(button3));
+        keybindManager.addKeybind("ALT", this::toggleInputMode);
+
+        // Set up the stage
+        primaryStage.setTitle("MenuFX");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    private HoverButtonFX createHoverButton(String buttonText, String keybind) {
+        HoverButtonFX button = new HoverButtonFX(buttonText);
+        button.setClickListener(() -> {
+            // Handle button click (for example, navigate to another page)
+            System.out.println("Button clicked: " + buttonText);
+        });
+
+        button.setOnMouseClicked(evt -> {
+            // Speak the button text when clicked
+            speakButtonText(buttonText);
+        });
+
+        return button;
+    }
+
+    private void switchButton(HoverButtonFX button) {
+        // Simulate switching to the button programmatically
+        button.fire();
+    }
+
+    private void toggleInputMode() {
+        altManager.toggleInputMode();
+        System.out.println("Input mode toggled to: " + altManager.getCurrentInputMode());
+    }
+
+    private void speakButtonText(String text) {
+        // Use TextToSpeechManager to speak the button text
+        ttsManager.playSpeech(text, 1000);
+    }
+}
+
+
+
+
+public class TextToSpeechAccessibility {
+
+    private String voiceName;
+    private int rate;
+    private int pitch;
+    private int volume;
+
+    public TextToSpeechAccessibility(String voiceName, int rate, int pitch, int volume) {
+        this.voiceName = voiceName;
+        this.rate = rate;
+        this.pitch = pitch;
+        this.volume = volume;
+    }
+
+    public void speak(String text) {
+        Voice voice = VoiceManager.getInstance().getVoice(voiceName);
+        if (voice != null) {
+            voice.allocate();
+        }
+
+        try {
+            voice.setRate(rate);
+            voice.setPitch(pitch);
+            voice.setVolume(volume);
+            voice.speak(text);
+        } catch (Exception e) {
+            e.printStackTrace();
+            // Handle the exception gracefully, log or show a user-friendly message
+        }
+    }

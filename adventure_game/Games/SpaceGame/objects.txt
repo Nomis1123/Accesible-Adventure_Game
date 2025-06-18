@@ -1,0 +1,47 @@
+MASK
+a mask that filters out gas
+1
+
+BANDAGE
+a bandage used for restoring HP
+5
+
+BANDAGE
+a bandage used for restoring HP
+5
+
+BANDAGE
+a bandage used for restoring HP
+5
+
+BANDAGE
+a bandage used for restoring HP
+5
+
+GUN
+the physics gun used to move objects
+6
+
+ID
+your ID card
+7
+
+SCREWDRIVER
+a screwdriver
+9
+
+HEART
+the beast's heart with a glowing yellow aura
+19
+
+CORE
+the mimic's glowing green core
+24
+
+ARTIFACT
+the drones leaking orange mechanical artifact
+25
+
+KEY
+a purple artifact with a purple void in the center
+39

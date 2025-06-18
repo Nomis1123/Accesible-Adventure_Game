@@ -1,0 +1,17 @@
+public enum InputMode {
+    MOUSE,
+    KEYBIND
+}
+
+
+public class AltManager {
+    private InputMode currentInputMode = InputMode.MOUSE;
+
+    public InputMode getCurrentInputMode() {
+        return currentInputMode;
+    }
+
+    public void toggleInputMode() {
+        currentInputMode = (currentInputMode == InputMode.MOUSE) ? InputMode.KEYBIND : InputMode.MOUSE;
+    }
+}
